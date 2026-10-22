@@ -14,7 +14,7 @@ router.get("/health", (_req, res) =>
 router.use("/auth", authRoutes);
 router.use("/reports", reportRoutes);
 router.use("/donation", donationRoutes);
-//router.use("/news", newsRoutes);
+router.use("/news", newsRoutes);
 router.use("/events", eventRoutes);
 
 export default router;
